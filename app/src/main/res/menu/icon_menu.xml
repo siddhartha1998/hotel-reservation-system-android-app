@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+    android:icon="@drawable/ic_baseline_home_24"
+    android:title="Home"/>
+
+    <item android:id="@+id/hotel"
+        android:icon="@drawable/ic_baseline_local_hotel_24"
+        android:title="Hotel"/>
+
+
+<!--    <item android:id="@+id/reservation"-->
+<!--        android:icon="@drawable/ic_baseline_reservation_24"-->
+<!--        android:title="Reservation"/>-->
+
+    <item android:id="@+id/contactUs"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="Contact Us"/>
+
+    <item android:id="@+id/logOut"
+        android:icon="@drawable/ic_baseline_login_24"
+        android:title="LogOut"/>
+
+</menu>

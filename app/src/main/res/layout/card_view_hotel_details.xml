@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/LightSkyBlue"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/hotelName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hotel Flora"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/hotelAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dhangadhi, Kailali"
+                    android:layout_below="@+id/hotelName"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/LightCoral"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/hotelPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9848644919"
+                    android:layout_below="@+id/hotelAddress"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colorRed"
+                    android:textStyle="bold" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/hotelPicture"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:maxHeight="100dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/logo" />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="140dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            app:cardCornerRadius="15dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/LightSkyBlue"-->
+<!--                android:padding="10dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/hotelN"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Hotel Devotee"-->
+<!--                    android:textSize="30dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:layout_marginLeft="10dp"/>-->
+
+<!--                <TextView-->
+<!--                   android:id="@+id/address"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Dhangadhi, Kailali"-->
+<!--                    android:layout_below="@+id/hotelN"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:textColor="@color/background"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="9848644919"-->
+<!--                    android:layout_below="@+id/address"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:textColor="@color/colorRed"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <de.hdodenhof.circleimageview.CircleImageView-->
+
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:maxHeight="100dp"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:src="@drawable/logo" />-->
+
+<!--            </RelativeLayout>-->
+
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="140dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            app:cardCornerRadius="15dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/LightSkyBlue"-->
+<!--                android:padding="10dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/hname"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Hotel Jalsa"-->
+<!--                    android:textSize="30dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:layout_marginLeft="10dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/add"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Dhangadhi, Kailali"-->
+<!--                    android:layout_below="@+id/hname"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:textColor="@color/background"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="9848644919"-->
+<!--                    android:layout_below="@+id/add"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:textColor="@color/colorRed"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <de.hdodenhof.circleimageview.CircleImageView-->
+
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:maxHeight="100dp"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:src="@drawable/logo" />-->
+
+<!--            </RelativeLayout>-->
+
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="140dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            app:cardCornerRadius="15dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@color/LightSkyBlue"-->
+<!--                android:padding="10dp">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/hoName"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Hotel Rubus"-->
+<!--                    android:textSize="30dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="@color/Black"-->
+<!--                    android:layout_marginLeft="10dp"/>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/addr"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Dhangadhi, Kailali"-->
+<!--                    android:layout_below="@+id/hoName"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:textColor="@color/background"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="9848644919"-->
+<!--                    android:layout_below="@+id/addr"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:textColor="@color/colorRed"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <de.hdodenhof.circleimageview.CircleImageView-->
+
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="100dp"-->
+<!--                    android:maxHeight="100dp"-->
+<!--                    android:layout_alignParentRight="true"-->
+<!--                    android:src="@drawable/logo" />-->
+
+<!--            </RelativeLayout>-->
+
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+
